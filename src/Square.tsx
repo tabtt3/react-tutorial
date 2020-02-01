@@ -1,11 +1,10 @@
 import * as React from 'react'
 
-export default class Square extends React.Component {
-    render() {
-        return (
-            <button>
-                button
-            </button>
-        )
-    }
+
+const Square = () => {
+    return (
+        <button>button</button>
+    )
 }
+
+export default Square
