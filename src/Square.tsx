@@ -1,9 +1,14 @@
 import * as React from 'react'
 
+type Props = {
+    value: number
+}
 
-const Square = () => {
+const Square = (props: Props) => {
     return (
-        <button>button</button>
+        <button className="square">
+            {props.value}
+        </button>
     )
 }
 

@@ -1,9 +1,11 @@
 import * as React from 'react'
 import Board from './Board'
 
+import'./index.css';
+
 const App = () => {
     return (
-        <Board />
+        <Board value={1} />
     )
 }
 

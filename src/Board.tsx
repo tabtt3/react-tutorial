@@ -1,9 +1,13 @@
 import * as React from 'react'
 import Square from './Square'
 
-const Board = () => {
+type Props = {
+    value: number
+}
+
+const Board = (props: Props): React.FC => {
     return (
-        <Square value={1} />
+        <Square value={props.value} />
     )
 }
 
